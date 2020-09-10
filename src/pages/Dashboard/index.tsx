@@ -38,6 +38,8 @@ const Dashboard: React.FC = () => {
     async function loadTransactions(): Promise<void> {
       const response = await api.get('/transactions');
 
+      console.log(response);
+
       const transactionsFormated = response.data.transactions.map(
         (transaction: Transaction) => ({
           ...transaction,
@@ -109,7 +111,7 @@ const Dashboard: React.FC = () => {
 
                     {transaction.formattedValue}
                   </td>
-                  <td>{transaction.category.title}</td>
+                  <td>{transaction.category}</td>
                   <td>{transaction.formattedDate}</td>
                 </tr>
               ))}
