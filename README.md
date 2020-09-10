@@ -18,7 +18,7 @@ Essa aplicação feita em [ReactJS](https://reactjs.org/).
 
 ## :books: Documentação
 
-Este projeto está na minha lista de projetos que ainda irão avançar mais ainda
+Este projeto está na minha lista de melhorias, mas por enquanto, irão predominar as funcionalidades já existentes.
 
 <a id="tecnologias-utilizadas"></a>
 
